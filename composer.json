@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "carew/carew": "dev-master"
+        "carew/carew": "~1.5"
     },
     "autoload": {
         "psr-0": { "Carew\\Plugin\\Pagination": ""}
