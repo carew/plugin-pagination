@@ -1,13 +1,13 @@
 {
-    "name": "carew/plugin-pagination",
-    "description": "Pagination plugin for carew",
-    "license": "MIT",
-    "homepage": "http://carew.github.com/",
-    "keywords": ["carew"],
-    "authors": [
+    "name"        : "carew/plugin-pagination",
+    "description" : "Pagination plugin for carew",
+    "license"     : "MIT",
+    "homepage"    : "http://carew.github.com/",
+    "keywords"    : ["carew"],
+    "authors"     : [
         {
-            "name": "Grégoire Pineau",
-            "email": "lyrixx@lyrixx.info"
+            "name"  : "Grégoire Pineau",
+            "email" : "lyrixx@lyrixx.info"
         }
     ],
     "require": {
@@ -16,5 +16,10 @@
     "autoload": {
         "psr-0": { "Carew\\Plugin\\Pagination": ""}
     },
-    "target-dir": "Carew/Plugin/Pagination"
+    "target-dir": "Carew/Plugin/Pagination",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
 }
