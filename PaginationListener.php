@@ -16,7 +16,7 @@ class PaginationListener implements EventSubscriberInterface
         $this->maxPerPage = $maxPerPage;
     }
 
-    public function paginate($event)
+    public function onDocument($event)
     {
         $indexes    = $event->getSubject();
         $indexesTmp = array();
@@ -59,7 +59,7 @@ class PaginationListener implements EventSubscriberInterface
     {
         return array(
             Events::INDEXES => array(
-                array('paginate', 1024),
+                array('onDocument', 1024),
             ),
         );
     }
